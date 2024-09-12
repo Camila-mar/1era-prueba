@@ -498,7 +498,8 @@ body {
 }
 
 .fh5co-cta {
-  padding: 7em 0;
+  padding: 10em 0;
+  
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -519,12 +520,27 @@ body {
   z-index: 2;
 }
 .fh5co-cta .container h3 {
+  padding-left: 70%;
   margin-bottom: 40px;
+  margin-right: -250px;
+  text-align: right;
   margin-top: 0;
-  line-height: 1.5;
+  line-height: 1.3;
+}
+.fh5co-cta .container h2 {
+  margin-bottom: 40px;
+  font-weight: bolder;
+  margin-right: 30px;
+  margin-right: -250px;
+  text-align: right;
+  margin-top: 0;
+  line-height: 0;
+}
+.fh5co-cta .container h2, .fh5co-cta .container p {
+  color: #D2F24F;
 }
 .fh5co-cta .container h3, .fh5co-cta .container p {
-  color: #fff;
+  color: #D2F24F;
 }
 .fh5co-cta .container p:last-child {
   margin-bottom: 0;
@@ -542,8 +558,8 @@ body {
 
 #fh5co-our-services .box {
   text-align: center;
-  color: #7f7f7f;
-  margin-bottom: 70px;
+  color: #D2F24F;
+  margin-bottom: 50px;
   position: relative;
   float: left;
   width: 100%;
@@ -646,7 +662,7 @@ body {
   padding: 0;
   font-weight: 400;
   font-size: 20px;
-  color: #444;
+  color: #ffffff;
 }
 
 #fh5co-features {
@@ -987,7 +1003,7 @@ body {
 }
 .owl-carousel .btn-primary:hover, .owl-carousel .btn-primary:focus, .owl-carousel .btn-primary:active {
   background: transparent !important;
-  border: 2px solid #4AE3B5 !important;
+  border: 2px solid #DCFE56!important;
 }
 
 .owl-carousel .owl-controls,
@@ -1013,7 +1029,7 @@ body {
 }
 .owl-carousel .owl-controls .owl-nav .owl-next i:before,
 .owl-carousel .owl-controls .owl-nav .owl-prev i:before {
-  color: rgba(255, 255, 255, 0.5);
+  color: #DCFE56(168, 217, 22, 0.5);
 }
 
 .owl-carousel-posts .owl-controls .owl-nav .owl-next,
@@ -1184,7 +1200,7 @@ body {
   border-bottom: 1px solid white;
 }
 .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead, .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead-2, .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-sub-lead {
-  color: #fff;
+  color: #ffffff;
   margin: 0;
   padding: 0;
 }
@@ -1193,7 +1209,7 @@ body {
   margin-bottom: 20px;
   margin-top: 0;
   color: #fff;
-  font-size: 50px;
+  font-size: 70px;
   line-height: 50px;
   color: #fff;
 }
