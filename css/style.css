@@ -266,13 +266,13 @@ body {
 .section-heading h2 {
   font-size: 40px;
   font-weight: 300;
-  color: #444;
+  color: #D2F24F;
   text-transform: uppercase;
   position: relative;
   display: block;
   padding-bottom: 0px;
   line-height: 1.5;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "poppins", Arial, sans-serif;
 }
 .section-heading h2:after {
   content: "";
@@ -292,10 +292,10 @@ body {
   }
 }
 .section-heading h3 {
-  font-weight: 300;
-  line-height: 1.5;
-  color: #929292;
+  font-weight: 250;
+  color: #E9DCD1;
   margin: 0;
+  font-family: "poppins", Arial, sans-serif;
 }
 @media screen and (max-width: 768px) {
   .section-heading h3 {
@@ -336,6 +336,7 @@ body {
 #fh5co-tour h3 {
   font-size: 30px;
 }
+/*
 #fh5co-tour .img-feature-1 {
   -webkit-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
   -moz-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
@@ -343,7 +344,7 @@ body {
   -o-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
   box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
 }
-
+*/
 #fh5co-testimonials {
   background: #4AE3B5;
   background: #7D62F0;
@@ -1109,7 +1110,7 @@ body {
 .owl-carousel-main.owl-theme .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
-  background: rgba(0, 0, 0, 0.2) !important;
+  background: #D2F24F  !important;
   border: 2px solid transparent !important;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
@@ -1117,7 +1118,7 @@ body {
 }
 .owl-carousel-main.owl-theme .owl-dots .owl-dot span:hover {
   background: none;
-  background: black !important;
+  background: rgb(7, 0, 205) !important;
 }
 .owl-carousel-main.owl-theme .owl-dots .owl-dot.active span, .owl-carousel-main.owl-theme .owl-dots .owl-dot:hover span {
   background: black !important;
@@ -1165,6 +1166,8 @@ body {
 .owl-carousel-fullwidth .item .mobile-image {
   position: relative;
   z-index: 99999999;
+  left: -60px;
+  width: 40%;
 }
 .owl-carousel-fullwidth .item .mobile-image .mobile {
   float: right;
@@ -1236,7 +1239,7 @@ body {
 }
 
 #fh5co-product-screenshots {
-  background: #303841;
+  background: #5745a8;
 }
 #fh5co-product-screenshots .section-heading h2 {
   color: #fff;
