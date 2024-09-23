@@ -39,6 +39,7 @@
   @if ($type == push) and ($index > 0) {
     .col-#{$class}-push-#{$index} {
       left: percentage(($index / $grid-columns));
+      margin-top: 150px;
     }
   }
   @if ($type == push) and ($index == 0) {
