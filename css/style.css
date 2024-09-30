@@ -35,9 +35,10 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  margin-top: 16px;
+  margin-top: 20px;
   line-height: 1.3;
-  
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 
@@ -268,7 +269,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .owl-carousel-main .item {
-    padding-top:150px !important;
+    padding-top:80px !important;
     padding-bottom: 200px;
   }
 }
@@ -281,7 +282,8 @@ body {
 }
 .section-heading h2 {
   font-size: 30px;
-  font-weight: 300;
+  margin-top: 0.5em;
+  font-weight: 400;
   color: #D2F24F;
   text-transform: uppercase;
   position: relative;
@@ -304,7 +306,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .section-heading h2 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 1.2;
   }
 }
@@ -319,8 +321,10 @@ body {
 }
 @media screen and (max-width: 768px) {
   .section-heading h3 {
-    font-size: 20px !important;
+    font-size: 18px !important;
     line-height: 24px;
+    margin-left: 31px;
+    margin-right: 31px;
   }
 }
 
@@ -336,14 +340,17 @@ body {
 #fh5co-pricing,
 #fh5co-press,
 #fh5co-product-screenshots {
-  padding: 3em 0;
-  padding-top: 7em;
+  padding-bottom: 3em ;
+  padding-top: 6em;
   background-color: #1B1B1B;
 }
 
 #fh5co-product-screenshots h3{
   color: #1B1B1B;
+  margin-bottom: 2em;
 }
+
+
 
 #fh5co-features {
   padding-top: 7em;
@@ -351,7 +358,8 @@ body {
   background-color: #1B1B1B;
 }
 #fh5co-tour {
-  padding: 0em 0;
+  padding-bottom: 3em;
+  padding-top: 0em;
   background-color: #1B1B1B;
 }
 @media screen and (max-width: 480px) {
@@ -361,25 +369,51 @@ body {
   #fh5co-testimonials,
   #fh5co-pricing,
   #fh5co-press,
-  #fh5co-product-screenshots,
-  #fh5co-tour {
-    padding: 3em 0;
+  #fh5co-product-screenshots {
+    padding-top: 6em;
+
   }
 }
-#fh5co-tour h2 {
-  margin-top: 80px;
-}
-#fh5co-tour h3 {
-  font-size: 30px;
-  padding-top: 0px;
+@media screen and (max-width: 480px) {
+  #fh5co-tour {
+    padding-top: 0em;
+    padding-bottom: 1em;
+
+  }
 }
 @media screen and (max-width: 480px) {
-#fh5co-tour img{
-  width: 65%;
-  margin-left: 3.8em;
+  #fh5co-tour p {
+    font-size: 16px;
+    margin-top: 1em;
+    padding-bottom: em;
+  }
+}
+
+#fh5co-tour h2 {
+  margin-top: 0.5em;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#fh5co-tour h3 {
+  font-size: 24px;
+  padding-top: 0px;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+@media screen and (max-width: 480px) {
+#fh5co-tour h3{
+  font-size: 18px;
 }
 
 }
+@media screen and (max-width: 480px) {
+  #fh5co-tour img{
+    width: 55%;
+    margin-left: 24%;
+  }
+  
+  }
 /*
 #fh5co-tour .img-feature-1 {
   -webkit-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
@@ -543,33 +577,23 @@ body {
 }
 
 .fh5co-cta {
-  padding: 10em 0;
-  
+  padding: 20em 0;
   background-size: cover;
-  background-attachment: fixed;
+  height: fit-content;
   background-repeat: no-repeat;
   position: relative;
+  background-position: center;
 }
-.fh5co-cta .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-  background: #000;
-  opacity: .3;
-}
+
 .fh5co-cta .container {
   position: relative;
   z-index: 2;
 }
 .fh5co-cta .container h3 {
 
-  padding-bottom: 4em;
   text-align: center;
   margin-top: 0;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 .fh5co-cta .container h2 {
   margin-bottom: 20px;
@@ -585,16 +609,20 @@ body {
 }
 .fh5co-cta .container h3, .fh5co-cta .container p {
   color: #D2F24F;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
 }
 .fh5co-cta .container p:last-child {
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cta {
-    padding: 1em 0;
+    background-position: center;
+    padding: 8em 0;
   }
 }
+
 
 #fh5co-our-services,
 #fh5co-press {
@@ -604,7 +632,7 @@ body {
 #fh5co-our-services .box {
   text-align: center;
   color: #D2F24F;
-  margin-bottom: 50px;
+  margin-bottom: 3em;
   position: relative;
   float: left;
   width: 100%;
@@ -612,7 +640,7 @@ body {
 @media screen and (max-width: 768px) {
   #fh5co-our-services .box {
     min-height: inherit;
-    margin-bottom: 90px;
+    margin-bottom: 3em;
   }
 }
 #fh5co-our-services .box .icon {
@@ -712,12 +740,13 @@ body {
 
 #fh5co-features {
   background: #1B1B1B;
-  padding-top: 7em 0;
+  padding-top: 6em ;
   padding-bottom: 1em;
 }
 @media screen and (max-width: 768px) {
   #fh5co-features {
-    padding: 3em 0;
+    padding-top: 6em 0;
+    padding-bottom: 3em;
   }
 }
 #fh5co-features .fh5co-service {
@@ -732,6 +761,13 @@ body {
 #fh5co-features .fh5co-service .fh5co-icon i {
   font-size: 40px;
   color: #D2F24F;
+}
+@media screen and (max-width: 768px) {
+#fh5co-features .fh5co-service .fh5co-icon i {
+  font-size: 40px;
+  margin-left: 20px;
+  color: #D2F24F;
+}
 }
 #fh5co-features .fh5co-service .fh5co-desc {
   width: 80%;
@@ -947,11 +983,12 @@ body {
 }
 
 #footer {
-  padding: 50px 0;
+  padding-top: 3em;
   color: #7f7f7f;
 }
 #footer .copyright {
-  margin-bottom: 0px;
+  color:#F4F2F0 ;
+  margin-bottom: 2em;
   padding-bottom: 0;
 }
 
@@ -987,7 +1024,7 @@ body {
 
 .social {
   padding: 0;
-  margin: 0;
+  margin-bottom: 3em;
   display: inline-block;
   position: relative;
   width: 100%;
@@ -1029,12 +1066,12 @@ body {
   background: #393e46 !important;
 }
 .social.social-box a {
-  background: #4AE3B5;
-  color: #fff;
+  background: #D2F24F;
+  color: #1B1B1B;
 }
 .social.social-circle a {
-  background: #4AE3B5;
-  color: #fff;
+  background: #D2F24F;
+  color: #1B1B1B;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1274,7 +1311,7 @@ body {
 .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead {
   font-weight: 700;
   margin-bottom: 10px;
-  margin-top: 0;
+  margin-top: 20%;
   color: #F4F2F0;
   font-size: 70px;
   line-height: 70px;
@@ -1308,6 +1345,7 @@ body {
 }
 #fh5co-product-screenshots .section-heading h2 {
   color: #1B1B1B;
+  margin-top: 0px;
 }
 
 .owl-carousel-center .owl-stage-outer {
@@ -1391,11 +1429,11 @@ body {
 
 
 .row-bottom-padded-lg {
-  padding-bottom: 5em;
+  padding-bottom: 4em;
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-lg {
-    padding-bottom: 8em;
+    padding-bottom: 1em;
   }
 }
 
@@ -1408,9 +1446,7 @@ body {
   }
 }
 
-.row-bottom-padded-sm {
-  padding-bottom: 2em;
-}
+
 @media screen and (max-width: 768px) {
   .row-bottom-padded-sm {
     padding-bottom: 0px;
@@ -1423,5 +1459,82 @@ body {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+#fh5co-tour .col-md-push-1 {
+  margin-top: 10%;
+  
+}
+.col-md-pull-4 {
+  margin-top: 8%;
+  
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  
+}
+#fh5co-tour p{
+  margin-bottom: 3em;
+}
+#fh5co-our-services p{
+  color: #F4F2F0;
+  font-size: 16px;
+  margin-left:55px ;
+  margin-right:55px ;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+#fh5co-product-screenshots {
+  padding-bottom: 6.5em;
+  padding-top: 6em;
+  
+}
+@media screen and (max-width: 768px) {
+.fh5co-cta .container h3, .fh5co-cta .container p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+}
+@media screen and (max-width: 768px) {
+  .col-md-4 animate-box h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  }
+
+  @media screen and (max-width: 768px) {
+    .row-bottom-padded-sm  p {
+        margin-top: 7px;
+    }
+}
+
+#imagefondo{
+    width: 100%;
+    height: 100vh; /* O un valor en porcentaje si prefieres */
+    background-size: cover;
+    background-position: center;
+  
+}
+@media screen and (max-width: 768px) {
+ .imagefondo{
+  width: 100%;
+  height: 100vh; /* O un valor en porcentaje si prefieres */
+  background-size: cover;
+  background-position: center;
+}
+}
+.imagefondo{
+  width: 100%;
+  height: 100%; /* O un valor en porcentaje si prefieres */
+  background-image: url(image/opc1150ppi.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
 
 /*# sourceMappingURL=style.css.map */
